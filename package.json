@@ -1,12 +1,15 @@
 {
   "name": "countries-map-next-app",
+  "homepage": "https://juliankailich.github.io/countries-next-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@apollo/client": "^3.11.4",
@@ -30,6 +33,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "babel-plugin-styled-components": "^2.1.4",
+    "gh-pages": "^6.1.1",
     "typescript": "^5"
   }
 }
