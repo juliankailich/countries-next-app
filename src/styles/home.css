@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+    font-family: "Roboto", sans-serif;
+  }
+  
+  html::-webkit-scrollbar, 
+  body::-webkit-scrollbar {
+    display: none;
+  }
